@@ -71,7 +71,7 @@ class ListViewModel: ObservableObject { // подписываем под про�
     }
     
     func saveItems () {
-        // app storage uzaem vo view, a tyt - userDefaults
+        // app storage uzaem vo view, a tyt - userDefaults.
         
         // pitaemsya prevratit' items massiv v json data
         if let encodedData = try? JSONEncoder().encode(items) {
